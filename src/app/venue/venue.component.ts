@@ -11,7 +11,7 @@ import { CountdownComponent } from '../countdown/countdown.component';
           <div class="venue-icon"><i class="fas fa-church"></i></div>
           <div class="venue-title"><strong>St. Antony's Church</strong></div>
           <div class="venue-sub">
-            Vaduthala, Kerala, India
+            Vaduthala, Kochi
             <div class="venue-dove"><i class="fas fa-dove"></i></div>
           </div>
         </div>
