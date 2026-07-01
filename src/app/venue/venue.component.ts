@@ -41,7 +41,7 @@ import { CountdownComponent } from '../countdown/countdown.component';
       .venue { font-family: Arial, Helvetica, sans-serif; }
       .venue strong { font-family: Georgia, 'Times New Roman', serif; font-weight: 700; }
       #venue {
-        background-image: linear-gradient(135deg, rgba(255,255,255,.82), rgba(244,236,230,.7)), url('/assets/them.png');
+        background-image: linear-gradient(135deg, rgba(255,255,255,.82), rgba(244,236,230,.7)), url('assets/them.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
