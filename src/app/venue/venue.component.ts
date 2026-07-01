@@ -22,6 +22,9 @@ import { CountdownComponent } from '../countdown/countdown.component';
           <button class="date-btn">July 16, 2026, Thursday
           <br>11:00 AM</button>
 
+           <div class="actions">
+          <a class="btn large" target="_blank" href="https://maps.app.goo.gl/VmMq9Mt9EZk7qfWp6">Get Directions</a>
+        </div>
         
         </div> <div class="count-wrap">
           <div class="count-title">Countdown to Wedding</div>
@@ -30,9 +33,7 @@ import { CountdownComponent } from '../countdown/countdown.component';
           </div>
         </div>
 
-        <div class="actions">
-          <a class="btn large" target="_blank" href="https://maps.app.goo.gl/VmMq9Mt9EZk7qfWp6">Get Directions</a>
-        </div>
+       
       </div>
     </section>`
   ,
