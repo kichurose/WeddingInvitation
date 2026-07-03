@@ -12,7 +12,7 @@ import { Component, EventEmitter, Output } from '@angular/core';
         <div class="name-grid">
           <div class="name-card groom">
             <h3>Mathew Francis Paul</h3>
-            <p>S/o Mr. C P George Lawrence & Mrs. Tressa K P</p>
+            <p>S/o Mr. C P George Lawrence & Mrs. Treasa Lawrence</p>
             <p>Chalaveetil, Ancy Lane, Vaduthala</p>
           </div>
           <div class="name-card bride">

@@ -4,7 +4,7 @@ body{font-family:Poppins,sans-serif;background:linear-gradient(180deg,#f7f2ef,#e
 section{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:24px;text-align:center}
 .hero{padding:24px;min-height:100vh;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
 .hero-with-image{background-image:url('assets/them.png');background-size:cover;background-position:center;background-repeat:no-repeat}
-#venue{background-image:linear-gradient(135deg, rgba(255,255,255,.9), rgba(244,236,230,.88)), url('assets/background.png');background-size:cover;background-position:center;background-repeat:no-repeat}
+#venue{background-image:linear-gradient(135deg, rgba(255,255,255,.9), rgba(244,236,230,.88)), url('assets/background.jpg');background-size:cover;background-position:center;background-repeat:no-repeat}
 .hero-overlay{position:absolute;inset:0;background:linear-gradient(135deg,rgba(255,255,255,.72),rgba(244,236,230,.58));backdrop-filter:blur(1px)}
 .hero-content{position:relative;z-index:1;max-width:620px;display:flex;flex-direction:column;align-items:center;gap:12px;animation:fadeUp .9s ease both;text-align:center;padding:32px}
 .hero h1{font:72px "Great Vibes",cursive;color:#5c4f6d;line-height:1.05;margin:8px 0;animation:fadeUp 1s ease both 0.15s;opacity:0;text-shadow:0 2px 6px rgba(255,255,255,.5)}
