@@ -1,6 +1,12 @@
 ﻿<app-nav (openVenue)="showInvitation.set(true)"></app-nav>
+<audio #audioPlayer loop>
+  <source src="assets/background-music.mp3" type="audio/mpeg">
+</audio>
+<button class="music-btn" (click)="toggleMusic(audioPlayer)" [class.playing]="isPlayingMusic()">
+  <i [class]="isPlayingMusic() ? 'fas fa-pause' : 'fas fa-play'"></i>
+</button>
 <main>
-  <app-landing *ngIf="!showInvitation()" (openInvitation)="showInvitation.set(true); showQuote.set(true)"></app-landing>
+  <app-landing *ngIf="!showInvitation()" (openInvitation)="showInvitation.set(true); showQuote.set(true); startMusic(audioPlayer)"></app-landing>
   <app-quote *ngIf="showQuote() && !showVenue()" (revealVenue)="showVenue.set(true)"></app-quote>
   <app-venue *ngIf="showVenue()"></app-venue>
 </main>

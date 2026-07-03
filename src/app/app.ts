@@ -17,4 +17,23 @@ export class App {
   protected readonly showInvitation = signal(false);
   protected readonly showQuote = signal(false);
   protected readonly showVenue = signal(false);
+  protected readonly isPlayingMusic = signal(false);
+
+
+  toggleMusic(audioElement: HTMLAudioElement) {
+    if (this.isPlayingMusic()) {
+      audioElement.pause();
+    } else {
+      audioElement.play().catch(err => console.log('Audio play failed:', err));
+    }
+    this.isPlayingMusic.set(!this.isPlayingMusic());
+  }
+
+  startMusic(audioElement: HTMLAudioElement) {
+  if (!this.isPlayingMusic()) {
+    audioElement.play()
+      .then(() => this.isPlayingMusic.set(true))
+      .catch(err => console.log('Audio play failed:', err));
+  }
+}
 }
